@@ -66,28 +66,30 @@ const Hero = ({bg , video , buttons , header_second , header , text , center}) =
 
         </div>
         <ul className={open ? 'social-hero z-1' : "social-hero" }>
-            <a href='https://www.flexwijs.nl/'>
+            <a href='tel:0765428436'>
               <div className='flex'>
                 <li>
                     <i className="fa-solid fa-phone"></i>
                 </li>
-                <span className='social-text'>Bel met Flexwijs</span>
+                <span className='social-text'>Bel met edukids</span>
               </div>
             </a>
-            <a href='https://www.flexwijs.nl/'>
+            <Link to={"/Werkenbij"}>
+            {/* <a href='#'> */}
               <div className='flex'>
                 <li>
                     <i className="fa-solid fa-chalkboard-user"></i>
                 </li>
-                <span className='social-text'>Bel met Flexwijs</span>
+                <span className='social-text'>Bekijk onze vacatures</span>
               </div>
-            </a>
-            <a href='https://www.flexwijs.nl/'>
+            {/* </a> */}
+            </Link>
+            <a target='_blank' href='https://www.linkedin.com/company/edukidsnl'>
               <div className='flex'>
                 <li>
                     <i className="fa-brands fa-linkedin-in"></i>
                 </li>
-                <span className='social-text'>Bel met Flexwijs</span>
+                <span className='social-text'>Bel met edukids</span>
               </div>
             </a>
           </ul>

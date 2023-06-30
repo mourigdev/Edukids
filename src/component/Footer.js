@@ -15,17 +15,17 @@ const Footer = ({header , text , no , id}) => {
         <div className='footer-social'>
           <ul className='social-links'>
             <li>
-              <a href='https://www.flexwijs.nl/'>
+              <a href='https://www.edukids.nl/'>
                 <i className="fa-brands fa-facebook fa-2x me-2"></i>
               </a>
             </li>
             <li>
-              <a href='https://www.flexwijs.nl/'>
+              <a href='https://www.edukids.nl/'>
                 <i className="fa-brands fa-instagram fa-2x me-2"></i>
               </a>
             </li>
             <li>
-              <a href='https://www.flexwijs.nl/'>
+              <a href='https://www.edukids.nl/'>
                 <i className="fa-brands fa-linkedin fa-2x me-2"></i>
               </a>
             </li>

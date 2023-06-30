@@ -19,7 +19,7 @@ const Contact = () => {
         <h4 style={{textAlign:"center" , color:"#002c41" , fontSize:"3rem"}}>Contact</h4>
         <ContactForm></ContactForm>
         <Address></Address>
-        <Footer header="“Het contact met Flexwijs is prettig en professioneel.”" text="Marjolijn, leraar op een reboundvoorziening"></Footer>
+        <Footer header="“Het contact met edukids is prettig en professioneel.”" text="Marjolijn, leraar op een reboundvoorziening"></Footer>
     </div>
   )
 }

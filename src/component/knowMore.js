@@ -37,7 +37,7 @@ const knowMore = ({two , nolist, header1, header2, list1 , list2 , list3 , list4
           <h4>{header2}</h4>
           <i className="fa-solid fa-circle-plus fa-2x color-primary"></i>              
          </div>
-          <p className='para home'>Flexwijs zet jouw ambities centraal. Samen vinden we de nieuwe onderwijsbaan die écht bij jou past. Krijgen waar je recht op hebt hoort daar ook bij.</p>
+          <p className='para home'>edukids zet jouw ambities centraal. Samen vinden we de nieuwe onderwijsbaan die écht bij jou past. Krijgen waar je recht op hebt hoort daar ook bij.</p>
        </Link> :  <div className='samen-sect'>
           <h2>{header2}</h2>
           <p className='para'>{text1}</p>

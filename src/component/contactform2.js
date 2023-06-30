@@ -38,7 +38,7 @@ const ContactForm = () => {
                 <span>T:</span> 076-5428436
             </p>
             <p>
-                <span>E:</span> info@flexwijs.nl
+                <span>E:</span> info@edukids.nl
             </p>
             <img src='images/contact.jpg' alt='contact'/>   
         </div>

@@ -23,7 +23,7 @@ const WerkenbijidSect = ({content}) => {
           ))}
         </ul> 
         <h4 className='subheader'>Over Edukids</h4>
-        <p className='para'>Bij Edukids zetten we ons al ruim 10 jaar in voor mensen die niets liever willen dan werken in het speciaal en regulier onderwijs. Wij gaan uit van persoonlijk contact, onderwijs is immers mensenwerk. Op deze manier gaan wij er ieder dag opnieuw voor om de juiste kandidaat en de juiste school bij elkaar te brengen zodat leerlingen altijd toegang hebben tot goed en inspirerend onderwijs. Hierbij zetten we jouw unieke talenten en ambities centraal, zodat we samen een nieuwe onderwijsbaan vinden die écht bij jou past! Wil je meer weten over Flexwijs? Bekijk dan de vrolijke animatie over onze duurzame werkwijze of volg ons op LinkedIn.</p>
+        <p className='para'>Bij Edukids zetten we ons al ruim 10 jaar in voor mensen die niets liever willen dan werken in het speciaal en regulier onderwijs. Wij gaan uit van persoonlijk contact, onderwijs is immers mensenwerk. Op deze manier gaan wij er ieder dag opnieuw voor om de juiste kandidaat en de juiste school bij elkaar te brengen zodat leerlingen altijd toegang hebben tot goed en inspirerend onderwijs. Hierbij zetten we jouw unieke talenten en ambities centraal, zodat we samen een nieuwe onderwijsbaan vinden die écht bij jou past! Wil je meer weten over edukids? Bekijk dan de vrolijke animatie over onze duurzame werkwijze of volg ons op LinkedIn.</p>
     </div>
   )
 }
