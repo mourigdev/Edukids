@@ -1,0 +1,6 @@
+Home
+OVER EDUKIDS            http://localhost:3000/Overedukids
+WerkenbijEDUKIDS       http://localhost:3000/Werkenbijedukids
+Opdrachtgevers		http://localhost:3000/Opdrachtgevers
+Sportstimulering        http://localhost:3000/Sportstimulering
+Voorleraren             http://localhost:3000/Voorleraren

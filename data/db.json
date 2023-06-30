@@ -1,0 +1,5 @@
+{
+    "contact": [
+      { "id": 1, "name": "json-server", "email": "typicode@gmail.com" , "msg":"test content dumbass" }
+    ]
+  }

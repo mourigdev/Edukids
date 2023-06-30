@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e55aa61c.css",
+    "main.js": "/static/js/main.5e0ff000.js",
+    "static/media/pregnant.png": "/static/media/pregnant.2b304dd8a657d3c2d2a2.png",
+    "static/media/woman.png": "/static/media/woman.97de77c6b2e3120d674c.png",
+    "static/media/hero.png": "/static/media/hero.7b3c39adeb6024f8d143.png",
+    "static/media/Opdrachtgevers.png": "/static/media/Opdrachtgevers.d74d93e5bae7504fc6be.png",
+    "static/media/footer.png": "/static/media/footer.83eb077966604f0a2362.png",
+    "static/media/speciaal.png": "/static/media/speciaal.f7a0dac0c74f765aa6ad.png",
+    "static/media/bold.png": "/static/media/bold.7b8b481d46cdf704ea73.png",
+    "index.html": "/index.html",
+    "main.e55aa61c.css.map": "/static/css/main.e55aa61c.css.map",
+    "main.5e0ff000.js.map": "/static/js/main.5e0ff000.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e55aa61c.css",
+    "static/js/main.5e0ff000.js"
+  ]
+}
