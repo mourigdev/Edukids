@@ -21,9 +21,9 @@ const Overedukids = () => {
         <div className='samen-vid'>
           <Samen header="Samen voor onderwijs en meer" link={false} text1="Sinds 2020 werkt Edukids aan het duurzaam versterken van PO, VO, MBO en SO, terwijl we ook diensten aanbieden aan kinderopvangcentra en gemeenten. Wij hebben ruime ervaring met diverse specialistische doelgroepen, van SBO tot jeugdzorgplus en van VSO tot justitiële jeugdinrichting. We zorgen voor de perfecte match tussen de juiste instelling en de juiste professional."
            text2="Naast onderwijsprofessionals bemiddelen wij ook in pedagogisch geschoold personeel, zowel op incidentele basis als in projectvorm. Hetzelfde geldt voor sportprofessionals met een passie voor de jeugd. Bovendien bieden we educatieve programma's op het gebied van sport, natuur, wetenschap, cultuur, dans en meer."></Samen>
-          <Video image="over.png"></Video>
+          <Video newclass="no-height" image="footer-logo.png"></Video>
         </div>
-        <Contact header="“Edukids begrijpt het onderwijs en weet wat er speelt bij instellingen en professionals.”" number='86'></Contact>
+        <Contact header="“Edukids begrijpt het onderwijs en weet wat er speelt bij instellingen en professionals.”" number='87'></Contact>
         <Transparant header="Op weg naar de toekomst"
         text1="Edukids realiseert zich dat alles wat we doen, draait om de kinderen en jongeren die we ondersteunen. Daarom hanteren wij maatschappelijke tarieven en eerlijke arbeidsvoorwaarden. We investeren voortdurend in het verbeteren van onze werkwijze om instellingen zo goed mogelijk te helpen bij het oplossen van hun uitdagingen."
         text2="Dit kan alleen door de wensen en ambities van professionals centraal te stellen. Zo vinden we de juiste professional voor elke situatie en dragen we bij aan de continuïteit en kwaliteit van het onderwijs en de andere diensten die we bieden. Elk kind heeft immers recht op de beste ondersteuning en begeleiding.">

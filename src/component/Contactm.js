@@ -15,7 +15,7 @@ const Contactm = ({text, title, link}) => {
             </div>}
           </Link>
         </div>
-        <img className='regulier-img' src='images/bold.png' alt='contact'/>
+        <img className='regulier-img' src='images/contactus.jpg' alt='contact'/>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import React  from 'react'
 import { Link } from 'react-router-dom'
 
-const Regulier = ({title , text1, text2 , link, idd}) => {
+const Regulier = ({title , text1, text2 , link, idd, img}) => {
 
   return (
     <div className='Regulier-sect'>
@@ -19,14 +19,14 @@ const Regulier = ({title , text1, text2 , link, idd}) => {
         </div>}
           {/* <h4>{title}</h4>
           <p className='para'>{text1}</p> */}
-          {link && <Link to={"/Regulieronderwijs"} className='learn-more-container' >
+          {link && <Link to={"/Sportstimulering"} className='learn-more-container' >
             <div className='d-flex justify-start'>
                 <i className="fa-solid fa-circle-plus fa-2x color-primary"></i>              
                 <p className='learn-more'>Lees meer</p>
             </div>
           </Link>}
         </div>
-        <img className='regulier-img' src='images/regulier.jpg' alt='Regulier'/>
+        {img ? <img className='regulier-img' src={"images/"+img} alt='Regulier'/> : <img className='regulier-img' src="images/regulier.jpg" alt='Regulier'/>}
     </div>
   )
 }

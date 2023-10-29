@@ -19,7 +19,8 @@ scroll-behavior: smooth;
 }
 
 :root {
-    --primary-color: #729343;
+    /* --primary-color: #729343; */
+    --primary-color: #076c45;
     --secondary-color: #4fa37d;
 }
 
@@ -164,26 +165,54 @@ body {
 
 .vorleraren {
   background-image: url("../public/images/speciaal.png");
-  min-height: 550px;
+  min-height: 600px;
+}
+
+.sportclubs{
+  background-image: url("../public/images/boy-sport.jpg");
+  min-height: 600px;
+}
+
+
+.sportstimulering{
+    background-image: url("../public/images/sport_hero.jpg");
+    min-height: 600px;
+    background-position: center;
 }
 
 .woman {
-  background-image: url("../public/images/woman.png");
-  min-height: 550px;
+  background-image: url("../public/images/woman.jpg");
+  min-height: 600px;
 }
 
 .pregnant {
-  background-image: url("../public/images/pregnant.png");
+  background-image: url("../public/images/pregnant.jpg");
+}
+
+.pregnant.hero {
+  background-position: bottom;
+  padding-top: 100px;
 }
 
 .bold {
-  background-image: url("../public/images/bold.png");
-  min-height: 500px;
+  background-image: url("../public/images/contactus.jpg");
+  min-height: 625px;
 }
+
+.bold.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 130px;
+}
+
 
 .hero , .vid , .insanegrid , .WerkenbijidSect , .contactform , .samen-sect , .know-more-sect ,.speciaal-sect , .Regulier-sect , .contact , .transparant , .acc-sect{
   margin-bottom: 3rem;
 }
+
+
+
 
 .hero:after {
   content: "";
@@ -198,17 +227,39 @@ body {
   max-height: 650px;
 }
 
+
+.background-right{
+  background-position: right;
+  background-size: auto;
+}
+
+
+.gradient-blacked:after{
+  background: linear-gradient(to right,#001729fc 0%,rgb(69 101 116 / 85%) 40%,rgba(255,255,255,0) 100%);
+}
+
+
 .Opdrachtgevers.hero::after{
   max-height: 600px;
 }
 
 .vorleraren.hero::after , .woman.hero::after {
-  max-height: 550px;
+  max-height: 600px;
+}
+
+.sportclubs.hero::after{
+  max-height: 600px;
+}
+
+.sportstimulering.hero::after{
+  max-height: 600px;
+  
 }
 
 .bold.hero::after {
-  max-height: 500px;
+  max-height: 625px;
 }
+
 
 .hero-content {
     max-width: 70rem;
@@ -457,6 +508,11 @@ h1 {
   width: 100%;
 }
 
+.no-height.regulier-img{
+  min-height:auto;
+  margin-top: 0;
+}
+
 .address {
   background-color: #f1f1f1;
   padding-top: 2rem;
@@ -521,8 +577,8 @@ input:focus , textarea:focus {
 
 .footer-1 {
   min-height: 500px;
-  background-image: url("../public/images/footer.png");
-  background-position: center;
+  background-image: url("../public/images/footer.jpg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -656,7 +712,7 @@ input:focus , textarea:focus {
 
 .man {
   text-align: center;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .accordion-header-icon {
@@ -740,7 +796,7 @@ input:focus , textarea:focus {
 }
 
 .form-image img {
-  width: 100%;
+  width: 91%;
 }
 
 .contactform {
@@ -1234,9 +1290,15 @@ input:focus , textarea:focus {
   }
 
   .vid {
-    flex-basis: 55%;
+    flex-basis: 50%;
   }
 
+  .vid-center.vid {
+    /* flex-basis:auto; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
 
   .hero-content .grid{
     max-width: 30rem;
@@ -1249,6 +1311,10 @@ input:focus , textarea:focus {
 
   .speciaal-img , .regulier-img{
     min-height: 300px;
+  }
+
+  .no-height.regulier-img{
+    min-height:auto;
   }
 
   .regu , .spec {
@@ -1343,6 +1409,19 @@ input:focus , textarea:focus {
   }
 
 }
+
+
+
+@media (max-width: 600px ) { 
+  .pregnant.hero {
+    background-position: right;
+  }
+
+  .right-hero.hero {
+    background-position: right;
+  }
+
+ }
 
 
 

@@ -41,7 +41,7 @@ function Dienstverlening({items , header, description}) {
           ))}
         </div>
         <div className='man'>
-          <img src='images/man.png' alt='man'/>
+          <img src='images/man6.png' alt='man'/>
         </div>
       </div>
       {

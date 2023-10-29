@@ -18,7 +18,7 @@ const Opdrachtgevers = () => {
   return (
     <div>
         <Header></Header>
-        <Hero bg="hero" video={false} buttons={false} header_second="REGULIER ONDERWIJS" header="Morgen begint vandaag" text="Binnen het onderwijs staat de leerling centraal. Inspirerend en goed onderwijs geven, dat is het doel. Zodat zij zich kunnen ontwikkelen voor de dag van morgen."></Hero>
+        <Hero bg="hero background-right right-hero" video={false} buttons={false} header_second="REGULIER ONDERWIJS" header="Morgen begint vandaag" text="Binnen het onderwijs staat de leerling centraal. Inspirerend en goed onderwijs geven, dat is het doel. Zodat zij zich kunnen ontwikkelen voor de dag van morgen."></Hero>
         <div className='samen-vid'>
           <Video image="speciaal.png"></Video>
           <Samen header="Samen voor het onderwijs" link={false} text1="Of je nou lesgeeft in de brugklas van het VMBO of werkt aan de examentraining voor 6 VWO, als schoolleider of leraar binnen het regulier onderwijs zet jij je elke dag in voor inspirerend en leerlinggericht onderwijs. Deze missie is overal gelijk, maar tegelijkertijd is geen school of leraar hetzelfde."

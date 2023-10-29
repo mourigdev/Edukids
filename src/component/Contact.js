@@ -9,12 +9,12 @@ const Contact = ({header , number}) => {
         <div>
           <p className='color-primary '>Onze partners vertellen:</p>
           <h4 className='quote'>{header}</h4>
-          <Link to={"/Lerarenonderzoek"} className='learn-more-container' >
+          {/* <Link to={"/Lerarenonderzoek"} className='learn-more-container' >
             <div className='d-flex justify-start'>
                 <i className="fa-solid fa-circle-plus fa-2x color-primary"></i>              
                 <p className='learn-more'>Bekijk alle resultaten van het Edukids Professionals Onderzoek</p>
             </div>
-          </Link>
+          </Link> */}
         </div>
         <img src={number} alt={number}/>
       </div>
