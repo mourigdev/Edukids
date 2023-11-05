@@ -213,7 +213,7 @@ body {
 
 
 .hero , .vid , .insanegrid , .WerkenbijidSect , .contactform , .samen-sect , .know-more-sect ,.speciaal-sect , .Regulier-sect , .contact , .transparant , .acc-sect{
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -593,6 +593,7 @@ input:focus , textarea:focus {
 }
 
 .footer-1 {
+  margin-top: 5rem;
   min-height: 500px;
   background-image: url("../public/images/footer.jpg");
   background-position: top;
@@ -730,6 +731,10 @@ input:focus , textarea:focus {
 .man {
   text-align: center;
   /* margin-top: 1rem; */
+}
+
+.man img{
+  width: 300px;
 }
 
 .accordion-header-icon {
@@ -1241,12 +1246,16 @@ input:focus , textarea:focus {
   }
 
   .samen-vid , .WerkenbijidSect  , .know-more-sect , .address, .contactform , .insanegrid, .speciaal-sect , .Regulier-sect , .contact  , .transparant , .acc-sect{
-    margin: 5rem auto;
+    margin-top: 2rem;
   }
 
-.just4margin{
+  .WerkenbijidSect{
+    margin-bottom: 2rem;
+  }
+
+/* .just4margin{
   margin: 4rem auto;
-}
+} */
 
   .contactform {
     margin-top: 1.75rem;
