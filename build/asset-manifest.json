@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.e55aa61c.css",
-    "main.js": "/static/js/main.3e5ec8e6.js",
-    "static/media/pregnant.png": "/static/media/pregnant.2b304dd8a657d3c2d2a2.png",
-    "static/media/woman.png": "/static/media/woman.97de77c6b2e3120d674c.png",
-    "static/media/hero.png": "/static/media/hero.7b3c39adeb6024f8d143.png",
-    "static/media/Opdrachtgevers.png": "/static/media/Opdrachtgevers.d74d93e5bae7504fc6be.png",
-    "static/media/footer.png": "/static/media/footer.83eb077966604f0a2362.png",
-    "static/media/speciaal.png": "/static/media/speciaal.f7a0dac0c74f765aa6ad.png",
-    "static/media/bold.png": "/static/media/bold.7b8b481d46cdf704ea73.png",
+    "main.css": "/static/css/main.eb6023b4.css",
+    "main.js": "/static/js/main.9276673f.js",
+    "static/media/Opdrachtgevers.png": "/static/media/Opdrachtgevers.bbc4d81c63172a28bacc.png",
+    "static/media/speciaal.png": "/static/media/speciaal.0dde7a018d9adac01981.png",
+    "static/media/footer.jpg": "/static/media/footer.704cc0194cb4b41c5513.jpg",
+    "static/media/pregnant.jpg": "/static/media/pregnant.c84ed6895a8a3c1ba596.jpg",
+    "static/media/hero.png": "/static/media/hero.1f4a8c87faed6055a9b0.png",
+    "static/media/contactus.jpg": "/static/media/contactus.6bd80a1ef9a15f935cf9.jpg",
+    "static/media/woman.jpg": "/static/media/woman.f801a9c987cd0e774a21.jpg",
+    "static/media/sport_hero.jpg": "/static/media/sport_hero.704a27bc8662ef3c93fc.jpg",
+    "static/media/boy-sport.jpg": "/static/media/boy-sport.527b4f2efed847cfa633.jpg",
     "index.html": "/index.html",
-    "main.e55aa61c.css.map": "/static/css/main.e55aa61c.css.map",
-    "main.3e5ec8e6.js.map": "/static/js/main.3e5ec8e6.js.map"
+    "main.eb6023b4.css.map": "/static/css/main.eb6023b4.css.map",
+    "main.9276673f.js.map": "/static/js/main.9276673f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e55aa61c.css",
-    "static/js/main.3e5ec8e6.js"
+    "static/css/main.eb6023b4.css",
+    "static/js/main.9276673f.js"
   ]
 }

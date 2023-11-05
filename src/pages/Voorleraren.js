@@ -49,10 +49,10 @@ const Opdrachtgevers = () => {
     <div>
         <Header></Header>
         <Hero bg="hero vorleraren" video={false} buttons={false} header_second="VOOR PEDAGOGEN" header="Leraren creëren impact!" text="Bij Edukids wij weten als geen ander dat onderwijs mensenwerk is en daarom zetten wij jouw ambities centraal. Samen gaan we op zoek naar de baan die écht bij jou past, want jij verdient niets minder dan de leukste baan ter wereld."></Hero>
-        <div className='samen-vid'>
+        <div className='samen-vid just4margin'>
           <Samen header="Bij Edukids begint morgen vandaag" link={false} text1="Als onderwijsprofessional wil je jonge mensen inspireren voor een vak of helpen bij het vinden van hun weg in het leven. Wanneer iemand een beroep op je doet sta je gelijk voor hen klaar, want elke dag telt in het schooljaar. Ook als zorgcoördinator, leraarondersteuner en HR-medewerker draait het jou om het maken van een verschil voor zowel de leerling als voor jouw collega's."
            text2="Bij ons staat persoonlijk contact hoog in het vaandel en zetten wij altijd jouw wensen en ambities centraal. Wij matchen dit vervolgens met het profiel van onze partnerscholen en instellingen, waarmee we vaak al jaren samenwerken. Zo vinden we samen jouw nieuwe droombaan in het onderwijs of de kinderopvang."></Samen>
-          <Video src="292184122"></Video>
+          <Video image="teacher.jpg"></Video>
         </div>
         <KnowMore two={false} header1="Waarom leraren kiezen voor edukids" list1="Edukids is dé specialist in het werven van personeel voor het onderwijs, de kinderopvang en gemeenten, en biedt daarnaast services op het gebied van sportstimulering en educatieve programma's op het gebied van sport, natuur, wetenschap, cultuur, dans en meer." list2="Bij Edukids staan jouw wensen en ambities centraal en bieden we persoonlijk contact met betrokken loopbaanadviseurs." list3="Met uitgebreide ervaring binnen het PO, VO, SO en MBO begrijpen wij de behoeften van onze partnerscholen als geen ander. Hierdoor zijn wij in staat om de ideale match te vinden tussen kandidaten en werkplekken."
         list4="Wij bieden een eerlijk salaris conform de geldende onderwijs cao, inclusief doorbetaling van schoolvakanties en feestdagen, uitstekende vakantiegeldregeling en eindejaarsuitkering, aantrekkelijke reiskostenvergoeding en een moderne pensioenregeling." list5="Bij Edukids krijg je ondersteuning van een enthousiast en kundig team en bieden we open, eerlijke en betrokken begeleiding." list6="Wij zijn trots op het feit dat 90% van onze kandidaten via ons een reguliere aanstelling krijgt of binnen 1 jaar wordt overgenomen door onze partnerscholen."
@@ -64,7 +64,7 @@ const Opdrachtgevers = () => {
         <Dienstverlening header="Wie ben jij?" items={items}></Dienstverlening>
 
         <div className='samen-vid'>
-          <Video src="292387887"></Video>
+          <Video newclass="no-height" image="footer-logo.png"></Video>
           <Samen header="Over edukids" link={false} text1='edukids zet zich in voor het duurzaam versterken van het onderwijs. Iedere dag opnieuw en altijd met een blik op de toekomst. Lees meer over onze organisatie en hoe wij al sinds 2010 de juiste leraar en de juiste school bij elkaar brengen binnen het Sportstimulering en regulier onderwijs en hoe onze leraren over ons denken.'
            text2="Benieuwd wat wij voor jou kunnen betekenen? Voel je dan vrij om te bellen naar 076-5428436 of stuur ons een berichtje. We kijken er naar uit om je te spreken!"></Samen>
         </div>

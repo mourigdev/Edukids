@@ -89,7 +89,7 @@ const Hero = ({bg , video , buttons , header_second , header , text , center}) =
                 <li>
                     <i className="fa-brands fa-linkedin-in"></i>
                 </li>
-                <span className='social-text'>Bel met edukids</span>
+                <span className='social-text'>Volg ons op LinkedIn</span>
               </div>
             </a>
           </ul>

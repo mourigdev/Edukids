@@ -51,7 +51,7 @@ const Opdrachtgevers = () => {
         <div className='samen-vid'>
           <Samen header="Persoonlijke betrokkenheid en diversiteit" link={false} text1="Edukids is uw specialistische partner voor het basisonderwijs, voortgezet onderwijs, Sportstimulering, MBO, kinderopvang en gemeenten. Wij bieden niet alleen onderwijsdiensten aan, maar ook sportstimulering en educatieve programma's op het gebied van sport, natuur, wetenschap, cultuur, dans, en meer."
            text2="Onze aanpak wordt gekenmerkt door persoonlijk contact en het besef dat elke school, kinderopvang, gemeente en kandidaat uniek is. Edukids waardeert deze diversiteit bij het oplossen van uw vragen op het gebied van onderwijs, sport en cultuur."></Samen>
-          <Video src="292184122"></Video>
+          <Video image="school.jpg"></Video>
         </div>
         <KnowMore two={false} header1="Waarom kiezen scholen, kinderopvang en gemeenten voor Edukids" list1="Specialistische partner voor onderwijs, kinderopvang en gemeenten" list2="Ruime ervaring in werving en selectie binnen diverse sectoren" list3="Uitgebreid netwerk van gemotiveerde professionals" list4="Effectieve werkwijze voor de werving van zowel leraren als kandidaten voor ondersteunende en leidinggevende functies"
         list5="Alleen passende en enthousiaste kandidaten worden voorgesteld, wat u tijd en energie bespaart" list6="Regelmatig persoonlijk contact om samen het beste resultaat te bereiken" list7="U bepaalt of u de kandidaat zelf een aanstelling wilt bieden, of dat u deze via Edukids wilt laten verlopen" list8="Geen verrassingen door heldere afspraken en vaste tarieven"
@@ -63,7 +63,7 @@ const Opdrachtgevers = () => {
         <Transparant header="Eerlijk en transparant" text1="Als een unieke partner in onderwijs, kinderopvang en gemeenten, werkt Edukids met vaste tarieven die rekening houden met het maatschappelijke karakter van deze sectoren. Afhankelijk van uw vraag, zijn de kosten meteen duidelijk en zijn er geen verrassingen achteraf." text2="Door onze tarieven onafhankelijk te maken van individuele arbeidsvoorwaarden, kunnen organisaties altijd kiezen voor de kandidaat waarin zij het meeste vertrouwen hebben. Dit komt ten goede van de kwaliteit van onze diensten en geeft iedereen gelijke kansen, ongeacht leeftijd of ervaring."></Transparant>
         <Dienstverlening header="Onze dienstverlening" description="true" items={items}></Dienstverlening>
         <div className='samen-vid'>
-          <Video src="292387887"></Video>
+        <Video newclass="no-height" image="footer-logo.png"></Video>
           <Samen header="Onze missie" link={false} text1='De missie van Edukids is ervoor zorgen dat instellingen altijd beschikken over enthousiaste en gemotiveerde professionals, zodat kinderen en jongeren altijd toegang hebben tot goed en inspirerend onderwijs, sportstimulering en andere educatieve activiteiten.'
           text2='Bij ons staat onderwijs voorop, maar we begrijpen dat elke instelling en professional uniek is. We kennen de diversiteit van het onderwijs en andere diensten, hebben oog voor de unieke dynamiek van het schooljaar en waarderen de verschillen tussen mensen en hun manier van werken. Dit vraagt om maatwerk, want alleen dan bereiken we de beste resultaten voor ieder kind!'
          ></Samen>

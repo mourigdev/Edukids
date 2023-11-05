@@ -158,31 +158,35 @@ body {
   padding-bottom: 30px;
 }
 
+.homehero{
+  min-height: 550px;
+}
+
 .Opdrachtgevers {
   background-image: url("../public/images/Opdrachtgevers.png");
-  min-height: 600px;
+  min-height: 550px;
 }
 
 .vorleraren {
   background-image: url("../public/images/speciaal.png");
-  min-height: 600px;
+  min-height: 570px;
 }
 
 .sportclubs{
   background-image: url("../public/images/boy-sport.jpg");
-  min-height: 600px;
+  min-height: 560px;
 }
 
 
 .sportstimulering{
     background-image: url("../public/images/sport_hero.jpg");
-    min-height: 600px;
+    min-height: 550px;
     background-position: center;
 }
 
 .woman {
   background-image: url("../public/images/woman.jpg");
-  min-height: 600px;
+  min-height: 560px;
 }
 
 .pregnant {
@@ -192,11 +196,12 @@ body {
 .pregnant.hero {
   background-position: bottom;
   padding-top: 100px;
+  min-height: 560px;
 }
 
 .bold {
   background-image: url("../public/images/contactus.jpg");
-  min-height: 625px;
+  min-height: 550px;
 }
 
 .bold.hero {
@@ -227,6 +232,10 @@ body {
   max-height: 650px;
 }
 
+.homehero:after{
+  max-height: 550px;
+}
+
 
 .background-right{
   background-position: right;
@@ -240,25 +249,33 @@ body {
 
 
 .Opdrachtgevers.hero::after{
-  max-height: 600px;
+  max-height: 550px;
 }
 
-.vorleraren.hero::after , .woman.hero::after {
-  max-height: 600px;
+.vorleraren.hero::after {
+  max-height: 570px;
+}
+.woman.hero::after {
+  max-height: 560px;
 }
 
 .sportclubs.hero::after{
-  max-height: 600px;
+  max-height: 560px;
 }
 
 .sportstimulering.hero::after{
-  max-height: 600px;
+  max-height: 550px;
+  
+}
+.pregnant.hero::after{
+  max-height: 560px;
   
 }
 
 .bold.hero::after {
-  max-height: 625px;
+  max-height: 550px;
 }
+
 
 
 .hero-content {
@@ -1227,7 +1244,9 @@ input:focus , textarea:focus {
     margin: 5rem auto;
   }
 
-
+.just4margin{
+  margin: 4rem auto;
+}
 
   .contactform {
     margin-top: 1.75rem;

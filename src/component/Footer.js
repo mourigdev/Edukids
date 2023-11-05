@@ -41,7 +41,7 @@ const Footer = ({header , text , no , id}) => {
             <Link to={""}>privacy statement</Link>
           </li>
           <li>
-            <Link to={""}>contact</Link>
+            <Link to={"/Contact"}>contact</Link>
           </li>
       </ul>
     </div>

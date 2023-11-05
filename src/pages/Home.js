@@ -18,10 +18,10 @@ const Home = () => {
   return (
     <div>
         <Header ></Header>
-        <Hero  bg="hero background-right gradient-blacked" video={true} buttons={true} header_second="DÉ WERVINGSSPECIALIST VOOR HET ONDERWIJS EN DE KINDEROPVANG" header="Onderwijs is mensenwerk"></Hero>
-        <div className='samen-vid'>
+        <Hero  bg="homehero hero background-right gradient-blacked" video={false} buttons={true} header_second="DÉ WERVINGSSPECIALIST VOOR HET ONDERWIJS EN DE KINDEROPVANG" header="Onderwijs is mensenwerk"></Hero>
+        <div className='samen-vid just4margin'>
          <Samen header="samen voor kwalitatief onderwijs, kinderopvang en sportstimulering" link={true} text1="Bij Edukids zetten we ons in voor het duurzaam versterken van het onderwijs, de kinderopvang en gemeenten. Naast het werven van leraren en onderwijsondersteunend personeel, bieden wij ook services aan op het gebied van sportstimulering en educatieve programma's op het gebied van sport, natuur, wetenschap, cultuur, dans en meer. Wij zijn er trots op dat we ons vakgebied al meer dan 10 jaar door en door kennen."></Samen>
-          <Video src={"292184122"}></Video>
+          <Video image={"pregnant.jpg"}></Video>
         </div>
         <KnowMore two={true} header1="Voor scholen en kinderopvang" 
         header2="Voor pedagogen" nolist ="Ben jij op zoek naar de juiste leraar of ondersteunend personeel voor de juiste groep of functie? Bij Edukids helpen wij graag. Wij zijn betrokken en hebben oog voor detail. Of het nu gaat om speciaal of regulier onderwijs, wij bieden maatwerkoplossingen voor jouw formatie."

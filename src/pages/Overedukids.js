@@ -29,7 +29,7 @@ const Overedukids = () => {
         text2="Dit kan alleen door de wensen en ambities van professionals centraal te stellen. Zo vinden we de juiste professional voor elke situatie en dragen we bij aan de continuïteit en kwaliteit van het onderwijs en de andere diensten die we bieden. Elk kind heeft immers recht op de beste ondersteuning en begeleiding.">
         </Transparant>
         <div className='samen-vid'>
-          <Video src="292184122"></Video>
+          <Video image="gettyimages-1055920696-2048x2048-transformed.jpeg"></Video>
           <Samen header="Onze missie" link={false} text1='De missie van Edukids is ervoor zorgen dat instellingen altijd beschikken over enthousiaste en gemotiveerde professionals, zodat kinderen en jongeren altijd toegang hebben tot goed en inspirerend onderwijs, sportstimulering en andere educatieve activiteiten.'
           text2='Bij ons staat onderwijs voorop, maar we begrijpen dat elke instelling en professional uniek is. We kennen de diversiteit van het onderwijs en andere diensten, hebben oog voor de unieke dynamiek van het schooljaar en waarderen de verschillen tussen mensen en hun manier van werken. Dit vraagt om maatwerk, want alleen dan bereiken we de beste resultaten voor ieder kind!'
          ></Samen>
